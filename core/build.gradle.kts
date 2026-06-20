@@ -59,13 +59,13 @@ mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
 
-    coordinates("io.github.johnsafwat", "kanimatedbutton", "0.1.0")
+    coordinates("io.github.john-safwat", "kanimatedbutton", "0.1.0")
 
     pom {
         name.set("KAnimatedButton")
         description.set("An animated, multiplatform Compose button for Kotlin Multiplatform (Android, iOS, Desktop, Web).")
         inceptionYear.set("2026")
-        url.set("https://github.com/johnsafwat/KAnimatedButton")
+        url.set("https://github.com/Kotlin-Multiplatfrom-911/KAnimatedButton")
         licenses {
             license {
                 name.set("The Apache License, Version 2.0")
@@ -75,15 +75,15 @@ mavenPublishing {
         }
         developers {
             developer {
-                id.set("johnsafwat")
+                id.set("john-safwat")
                 name.set("John Safwat")
-                url.set("https://github.com/johnsafwat")
+                url.set("https://github.com/john-safwat")
             }
         }
         scm {
-            url.set("https://github.com/johnsafwat/KAnimatedButton")
-            connection.set("scm:git:git://github.com/johnsafwat/KAnimatedButton.git")
-            developerConnection.set("scm:git:ssh://git@github.com/johnsafwat/KAnimatedButton.git")
+            url.set("https://github.com/Kotlin-Multiplatfrom-911/KAnimatedButton")
+            connection.set("scm:git:git://github.com/Kotlin-Multiplatfrom-911/KAnimatedButton.git")
+            developerConnection.set("scm:git:ssh://git@github.com/Kotlin-Multiplatfrom-911/KAnimatedButton.git")
         }
     }
 }

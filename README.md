@@ -13,7 +13,7 @@ Add the dependency to your `commonMain` source set:
 kotlin {
     sourceSets {
         commonMain.dependencies {
-            implementation("io.github.johnsafwat:kanimatedbutton:0.1.0")
+            implementation("io.github.john-safwat:kanimatedbutton:0.1.0")
         }
     }
 }
